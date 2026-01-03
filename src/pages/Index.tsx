@@ -99,17 +99,7 @@ const Index = () => {
         </section>
 
         <section className="container mx-auto px-4 py-16">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center space-y-2">
-              <Icon name="Truck" size={32} className="mx-auto mb-3 opacity-80" />
-              <h3 className="text-sm font-medium">Бесплатная доставка</h3>
-              <p className="text-xs text-muted-foreground">При заказе от 3000 ₽</p>
-            </div>
-            <div className="text-center space-y-2">
-              <Icon name="Shield" size={32} className="mx-auto mb-3 opacity-80" />
-              <h3 className="text-sm font-medium">Гарантия качества</h3>
-              <p className="text-xs text-muted-foreground">30 дней на возврат</p>
-            </div>
+          <div className="flex justify-center">
             <div className="text-center space-y-2">
               <Icon name="MessageCircle" size={32} className="mx-auto mb-3 opacity-80" />
               <h3 className="text-sm font-medium">Поддержка 24/7</h3>
