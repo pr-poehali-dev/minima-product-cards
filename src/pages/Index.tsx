@@ -34,10 +34,10 @@ const Index = () => {
         <section className="container mx-auto px-4 py-24 md:py-32">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6 leading-tight">
-              Минималистичные товары для современной жизни
+              Добро пожаловать в мир комфорта и стиля!
             </h1>
             <p className="text-muted-foreground mb-8 text-sm md:text-base max-w-xl">
-              Тщательно отобранная коллекция предметов для дома. Простота, качество и функциональность в каждой детали.
+              В нашем магазине каждая вещь - это часть вашей уникальной истории. Мы собрали коллекцию, где качество встречается с вдохновением, а практичность - с элегантностью.
             </p>
             <Link to="/catalog">
               <Button size="lg" className="rounded-sm">
