@@ -31,8 +31,17 @@ const Index = () => {
       </header>
 
       <main>
-        <section className="container mx-auto px-4 py-24 md:py-32">
-          <div className="max-w-3xl">
+        <section 
+          className="container mx-auto px-4 py-24 md:py-32 relative"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/de558e0b-85f9-4294-9dc2-93b7070ad7d6/files/0d0a9b3e-74f1-44e1-949f-d2e6a2b8f6c7.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
+          <div className="absolute inset-0 bg-background/60 backdrop-blur-sm"></div>
+          <div className="max-w-3xl relative z-10">
             <h1 className="text-4xl md:text-6xl font-light tracking-tight mb-6 leading-tight">
               Добро пожаловать в мир комфорта и стиля!
             </h1>
