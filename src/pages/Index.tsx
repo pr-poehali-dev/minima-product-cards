@@ -119,9 +119,7 @@ const Index = () => {
       </main>
 
       <footer className="border-t border-border mt-16">
-        <div className="container mx-auto px-4 py-8 text-center text-xs text-muted-foreground">
-          © 2026 Магазин. Минималистичный дизайн для каждого.
-        </div>
+        <div className="container mx-auto px-4 py-8 text-center text-xs text-muted-foreground">© 2026</div>
       </footer>
     </div>
   );
